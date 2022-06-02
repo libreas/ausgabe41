@@ -1,0 +1,3 @@
+---
+
+**Philipp Zumstein** (<https://orcid.org/0000-0002-6485-9434>) studierte Mathematik und promovierte in Theoretischer Informatik. Seit 2012 arbeitet er an der Universitätsbibliothek Mannheim als Fachreferent. Dort leitet er seit 2018 das Team Publikationsservices und Forschungsunterstützung und ist Open-Access-Beauftragter der Universität.
