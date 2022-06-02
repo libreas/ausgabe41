@@ -1,0 +1,19 @@
+---
+
+layout: page
+lang: "de"
+journal: "LIBREAS. Library Ideas"
+issue: "41"
+year: "2022"
+contributor: 
+- "Anne Christensen"
+title: "Wissenschaftliche Literatur entdecken: Was bibliothekarische Discovery-Systeme von der Konkurrenz lernen und was sie ihr zeigen können"
+abstract: "In den letzten Jahren ist das Angebot an Academic Search Engines für die Recherche nach Fachliteratur zu allen Wissenschaftsgebieten stark angewachsen und ergänzt die beliebten kommerziellen Angebote wie Web of Science oder Scopus. Der Artikel zeigt die wesentlichen Unterschiede zwischen bibliothekarischen Discovery-Systemen und Academic Search Engines wie Base, Dimensions oder Open Alex auf und diskutiert Möglichkeiten, wie beide von einander profitieren können. Diese Entwicklungsperspektiven betreffen Aspekte wie die Kontextualisierung von Wissen, die Datenmodellierung, die automatischen Datenanreicherung sowie den Zuschnitt von Suchräumen."
+pdf: "main.pdf"
+doi: ""
+date: 2022-06-02
+comments: false
+sharing: true
+footer: true
+
+---
