@@ -1,0 +1,9 @@
+---
+
+**Franziska Stanzel** (<https://orcid.org/0000-0003-0053-8604>) ist seit Oktober 2021 Teamleiterin des Open Access Monitors in der Zentralbibliothek des Forschungszentrums Jülich. Sie absolvierte das praktische Jahr des Bibliotheksreferendariates an der Bibliothek des kiz der Universität Ulm und die Theorie an der BSB München. Zuvor studierte sie Biochemie (Bachelor) an der Universität Bayreuth sowie Chemische Biologie (Master of Science) an der Friedrich-Schiller-Universität Jena.
+
+**Irene Barbers** (<https://orcid.org/0000-0003-2011-7444>) ist Projektverantwortliche für den Open Access Monitor. Sie hat wissenschaftliches Bibliothekswesen (Dipl.-Bibl.) und Bibliotheks- und Informationswissenschaft (MA LIS) an der FH Köln studiert und ist Leiterin des Fachbereichs Literaturerwerbung in der Zentralbibliothek des Forschungszentrums Jülich. Sie ist Mitglied im Executive Committee und im Board of Directors des Projekts COUNTER sowie Mitglied des EZB-Beirats (2022--2025).
+
+**Philipp Pollack** (<https://orcid.org/0000-0002-3660-5752>) ist für die technische Umsetzung des Open Access Monitors verantwortlich. Er ist seit 2011 am Forschungszentrum Jülich angestellt. Dort hat er zunächst ein duales Studium zum Mathematisch-technischen Softwareentwickler absolviert und anschließend den Master of Science im Fach Informatik an der Heinrich-Heine-Universität Düsseldorf erlangt.
+
+**Barbara Lindstrot** (<https://orcid.org/0000-0003-2487-9040>) ist an der Pflege der Daten des Open Access Monitors beteiligt. Nach dem Abschluss als Dipl.-Dokumentarin an der Fachhochschule Potsdam war sie zunächst bei „d&a Dokumentationsservice GmbH" in Potsdam angestellt. Seit 2009 arbeitet sie im Team Lizenzmanagement in der Zentralbibliothek des Forschungszentrums Jülich.
