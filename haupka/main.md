@@ -110,89 +110,12 @@ uns bereitgestellten Datenbanken sowie die angewendeten Prozeduren.
 
 Tabelle 1: Informationen zu den bereitgestellten Snapshots
 
-+-----------------------+-----------------------+-----------------------+
-| Datenbank             | Download              | Prozedur              |
-+=======================+=======================+=======================+
-| Unpaywall             | Unpaywall-Snapshots   | Bei der Prozessierung |
-|                       | werden in regelmäigen | des Snapshots         |
-|                       | Abständen auf einem   | verwenden wir das     |
-|                       | Amazon S3 Cloud       | Command-Line-Tool jq  |
-|                       | Storage angeboten.    | ([https:/            |
-|                       | Die Snapshots sind in | /stedolan.github.io/j |
-|                       | der Regel zwischen 16 | q/](https://ste |
-|                       | und 30 Gigabyte groß. | dolan.github.io/jq/)) |
-|                       | Der Download ist      | und das Programm      |
-|                       | kostenlos. Ein        | parallel              |
-|                       | Account wird nicht    | ([htt                |
-|                       | benötigt.             | ps://www.gnu.org/soft |
-|                       |                       | ware/parallel/] |
-|                       |                       | (https://www.gnu.org/ |
-|                       |                       | software/parallel/)). |
-|                       |                       |                       |
-|                       |                       | Das von uns           |
-|                       |                       | verwendete Skript     |
-|                       |                       | wird auf Github       |
-|                       |                       | angeboten             |
-|                       |                       | ([https:/            |
-|                       |                       | /github.com/naustica/ |
-|                       |                       | unpaywall_bq](h |
-|                       |                       | ttps://github.com/nau |
-|                       |                       | stica/unpaywall_bq)). |
-+-----------------------+-----------------------+-----------------------+
-| Crossref              | Crossref              | Unser verwendetes     |
-|                       | veröffentlicht jeden  | Skript basiert auf    |
-|                       | Monat einen           | Arbeiten des Academic |
-|                       | Datenbanksnapshot als | Observatory           |
-|                       | Teil der              | ([https://gith       |
-|                       | kostenpflichtigen     | ub.com/The-Academic-O |
-|                       | Metadat               | bservatory/academic-o |
-|                       | a-Plus-Mitgliedschaft | bservatory-workflows] |
-|                       | (                     | (https://github |
-|                       | [https://www.crossre | .com/The-Academic-Obs |
-|                       | f.org/services/metada | ervatory/academic-obs |
-|                       | ta-retrieval/metadata | ervatory-workflows)). |
-|                       | -plus/]{.ul}](https:/ | Wir haben dieses      |
-|                       | /www.crossref.org/ser | Skript leicht         |
-|                       | vices/metadata-retrie | verändert, sodass es  |
-|                       | val/metadata-plus/)). | auf unseren Servern   |
-|                       | Die Snapshots können  | läuft.                |
-|                       | dabei im XML- oder    |                       |
-|                       | JSON-Format           | Das von uns           |
-|                       | heruntergeladen       | verwendete Skript     |
-|                       | werden. Die Snapshots | wird auf Github       |
-|                       | enthalten viele       | angeboten             |
-|                       | kleine Dateien, die   | ([https               |
-|                       | in einem tar-Archiv   | ://github.com/naustic |
-|                       | zusammengefasst       | a/crossref_bq]](      |
-|                       | werden. Die Snapshots | https://github.com/na |
-|                       | sind zwischen 100 und | ustica/crossref_bq)). |
-|                       | 160 Gigabyte groß.    |                       |
-+-----------------------+-----------------------+-----------------------+
-| OpenAlex              | Der OpenAlex-Snapshot | Der OpenAlex-Snapshot |
-|                       | wird in fünf          | ist so aufgebaut,     |
-|                       | Entitäten unterteilt. | dass er theoretisch   |
-|                       | Diese sind Works,     | ohne weitere          |
-|                       | Authors, Venues,      | Bearbeitung in Google |
-|                       | Institutions und      | BigQuery geladen      |
-|                       | Concepts. Jede dieser | werden kann. Dennoch  |
-|                       | Entitäten kann        | verwenden wir auch    |
-|                       | einzeln aber auch     | hierfür ein Skript,   |
-|                       | zusammen mit den      | welches uns           |
-|                       | anderen Entitäten     | ermöglicht            |
-|                       | heruntergeladen       | Datenfelder zu        |
-|                       | werden. Der Download  | bearbeiten und zu     |
-|                       | ist kostenlos. Der    | filtern.              |
-|                       | komplette Snapshot    |                       |
-|                       | umfasst mehrere       | Das von uns           |
-|                       | hundert Gigabyte.     | verwendete Skript     |
-|                       |                       | wird auf Github       |
-|                       |                       | angeboten             |
-|                       |                       | ([                    |
-|                       |                       | [https://github.com/n |
-|                       |                       | austica/openalex]     |
-|                       |                       | ](https://github.com  |
-|                       |                       | /naustica/openalex)). |
-+-----------------------+-----------------------+-----------------------+
+|Datenbank |Download                                                                                                                                                                                                                                                                                                                                                                                                                        |Prozedur                                                                                                                                                                                                                                                                                                                                     |
+|:----------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|Unpaywall  |Unpaywall-Snapshots werden in regelmäigen Abständen auf einem Amazon S3 Cloud Storage angeboten. Die Snapshots sind in der Regel zwischen 16 und 30 Gigabyte groß. Der Download ist kostenlos. Ein Account wird nicht benötigt.                                                                                                                                                                                                 |Bei der Prozessierung des Snapshots verwenden wir das Command-Line-Tool jq (<https://stedolan.github.io/jq/>) und das Programm parallel (<https://www.gnu.org/software/parallel/>). Das von uns verwendete Skript wird auf Github angeboten (<https://github.com/naustica/unpaywall_bq>).                                                          |
+|Crossref   |Crossref veröffentlicht jeden Monat einen Datenbanksnapshot als Teil der kostenpflichtigen Metadata-Plus-Mitgliedschaft (<https://www.crossref.org/services/metadata-retrieval/metadata-plus/>). Die Snapshots können dabei im XML- oder JSON-Format heruntergeladen werden. Die Snapshots enthalten viele kleine Dateien, die in einem tar-Archiv zusammengefasst werden. Die Snapshots sind zwischen 100 und 160 Gigabyte groß. |Unser verwendetes Skript basiert auf Arbeiten des Academic Observatory (<https://github.com/The-Academic-Observatory/academic-observatory-workflows>). Wir haben dieses Skript leicht verändert, sodass es auf unseren Servern läuft. Das von uns verwendete Skript wird auf Github angeboten (<https://github.com/naustica/crossref_bq>).       |
+|OpenAlex   |Der OpenAlex-Snapshot wird in fünf Entitäten unterteilt. Diese sind Works, Authors, Venues, Institutions und Concepts. Jede dieser Entitäten kann einzeln aber auch zusammen mit den anderen Entitäten heruntergeladen werden. Der Download ist kostenlos. Der komplette Snapshot umfasst mehrere hundert Gigabyte.                                                                                                             |Der OpenAlex-Snapshot ist so aufgebaut, dass er theoretisch ohne weitere Bearbeitung in Google BigQuery geladen werden kann. Dennoch verwenden wir auch hierfür ein Skript, welches uns ermöglicht Datenfelder zu bearbeiten und zu filtern. Das von uns verwendete Skript wird auf Github angeboten (<https://github.com/naustica/openalex>). |
+
 
 #### Zugriffsoptionen
 
@@ -219,7 +142,7 @@ unter einer Creative-Commons-Lizenz ab. Die Ergebnistabelle kann
 entweder innerhalb der BigQuery-Cloud-Umgebung gespeichert oder lokal
 heruntergeladen werden.
 
-```r
+```
 library(bigrquery)
  
 # Authentification
@@ -352,12 +275,7 @@ Affiliationsprofil beinhaltet hoaddata Metadaten der Open-Access-Artikel
 in hybriden Journalen auf Artikelebene. Insgesamt verzeichnet hoaddata
 348.978 Artikel unter einer Creative-Commons-Lizenz.
 
-![](media/image2.png){width="6.5in" height="4.013888888888889in"}
-
-*Abbildung 1: Relative Entwicklung des globalen Open-Access-Anteils in
-hybriden Journalen, welche durch konsortiale Transformationsverträge in
-Deutschland mit kommerziellen Verlagen abgedeckt sind. Datenquellen:
-Pollack et al. (2022) und Crossref (Datenstand März 2022).*
+![Abbildung 1: Relative Entwicklung des globalen Open-Access-Anteils in hybriden Journalen, welche durch konsortiale Transformationsverträge in Deutschland mit kommerziellen Verlagen abgedeckt sind. Datenquellen: Pollack et al. (2022) und Crossref (Datenstand März 2022).](fig/fig_1.png)
 
 Abbildung 1 zeigt die prozentuale Entwicklung des Open-Access-Anteils in
 hybriden Journalen, welche durch konsortiale Transformationsverträge in
@@ -368,16 +286,8 @@ der Artikel wurde unter der Variante CC BY veröffentlicht, welche im
 Vergleich zu den anderen Varianten eine umfassende Nachnutzung
 ermöglicht.
 
-![](media/image1.png){width="6.5in" height="4.013888888888889in"}
+![Abbildung 2: Relative Entwicklung des Open-Access-Anteils in hybriden Journalen, welche durch konsortiale Transformationsverträge in Deutschland mit kommerziellen Verlagen abgedeckt sind je Land. Abgebildet sind die 20 publikationsstärksten Länder. Länderspezifische Zwischenüberschriften beinhalten die Gesamtzahl der Publikationen im Zeitraum sowie deren prozentualer Anteil am untersuchten Gesamtpublikationsvolumen. Datenquellen: Pollack et al. (2022), Crossref und OpenAlex.*](fig/fig_2.png)
 
-*Abbildung 2: Relative Entwicklung des Open-Access-Anteils in hybriden
-Journalen, welche durch konsortiale Transformationsverträge in
-Deutschland mit kommerziellen Verlagen abgedeckt sind je Land.
-Abgebildet sind die 20 publikationsstärksten Länder. Länderspezifische
-Zwischenüberschriften beinhalten die Gesamtzahl der Publikationen im
-Zeitraum sowie deren prozentualer Anteil am untersuchten
-Gesamtpublikationsvolumen. Datenquellen: Pollack et al. (2022), Crossref
-und OpenAlex.*
 
 Abbildung 2 zeigt den Open-Access-Anteil für die zwanzig
 publikationsstärksten Länder gemessen an der Adresse der
