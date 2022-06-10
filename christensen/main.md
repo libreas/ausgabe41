@@ -2,6 +2,8 @@
 
 <div align="center">\*\*\*</div>
 
+<br />
+
 *Vorbemerkung: Dieser Text sollte eigentlich eine Rezension für OpenAlex
 werden. Diese Academic Search Engine wurde Ende 2021 angekündigt und
 erscheint hinsichtlich ihres Datenmodells und der grundsätzlichen
