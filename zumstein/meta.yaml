@@ -8,7 +8,8 @@ year: "2022"
 contributor: 
 - "Philipp Zumstein"
 title: "Blitzschnelles Publizieren mit Academia Letters, aber sag', wie verhält es sich mit der Qualitätssicherung? Ein informationswissenschaftlicher Kommentar"
-pdf: "main.pdf"
+pdf: "https://doi.org/10.18452/24799"
+doi: "10.18452/24799"
 date: 2022-06-02
 comments: false
 sharing: true
