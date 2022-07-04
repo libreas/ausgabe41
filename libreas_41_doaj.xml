@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<records><record>
+<language>ger</language>
+    <publisher>Institut für Bibliothekswissenschaft Berlin</publisher>
+    <journalTitle>Libreas : Library Ideas</journalTitle>
+    <issn>18607950</issn>
+    <publicationDate>2022-06</publicationDate>
+    <volume>41</volume>
+    <doi>10.18452/24796</doi>
+    <documentType>article</documentType>
+    <title language="ger">Editorial #41: Big Scholarly Data</title>
+    <authors><author><name>Redaktion LIBREAS</name></author></authors>
+    <fullTextUrl format="html">https://libreas.eu/ausgabe41/editorial</fullTextUrl>
+    <keywords><keyword>Daten</keyword><keyword>Bibliothek</keyword><keyword>Big Scholarly Data</keyword><keyword>library</keyword><keyword>Open Access</keyword></keywords>
+</record>
+<record>
+<language>ger</language>
+    <publisher>Institut für Bibliothekswissenschaft Berlin</publisher>
+    <journalTitle>Libreas : Library Ideas</journalTitle>
+    <issn>18607950</issn>
+    <publicationDate>2022-06</publicationDate>
+    <volume>41</volume>
+    <doi>10.18452/24801</doi>
+    <documentType>article</documentType>
+    <title language="ger">Minitel, Btx und die Bibliotheken. Ein Versuch, den Zusammenhang von neuen Technologien und Bibliotheken zu systematisieren</title>
+    <authors><author><name>Karsten Schuldt</name></author></authors>
+    <abstract language="ger">Anhand der vor allem in den 1980er Jahren verbreiteten Technologie der interaktiven Videotextsysteme und den daraus resultierenden Reaktionen von Bibliotheken, wird versucht, ein Modell für den Zusammenhang von Bibliotheken und neuen Technologien zu erarbeiten. Konzentriert wird sich dabei auf das französische Minitel- und das bundesdeutsche Btx-System. Im Ergebnis zeigt sich, dass Bibliotheken relativ schnell reagieren, neue Technologien daraufhin zu hinterfragen, ob sie für Aufgaben in Bibliotheken genutzt werden können. Es zeigt sich aber auch, dass die tatsächliche Verbreitung in Bibliotheken massiv von Entwicklungen ausserhalb von Bibliotheken beeinflusst wird. Der Artikel endet mit ersten Eckpunkten für ein solches Modell und offenen Forschungsfragen.</abstract>
+    <fullTextUrl format="html">https://libreas.eu/ausgabe41/schuldt</fullTextUrl>
+    <keywords><keyword>Bibliotheksgeschichte</keyword><keyword>Bibliotheksentwicklung</keyword><keyword>Verbreitung Informationstechnik</keyword><keyword>Btx</keyword><keyword>informatisation</keyword><keyword>banalisation</keyword><keyword>minitel</keyword></keywords>
+</record>
+<record>
+<language>ger</language>
+    <publisher>Institut für Bibliothekswissenschaft Berlin</publisher>
+    <journalTitle>Libreas : Library Ideas</journalTitle>
+    <issn>18607950</issn>
+    <publicationDate>2022-06</publicationDate>
+    <volume>41</volume>
+    <doi>10.18452/24799</doi>
+    <documentType>article</documentType>
+    <title language="ger">Blitzschnelles Publizieren mit Academia Letters, aber sag', wie verhält es sich mit der Qualitätssicherung? Ein informationswissenschaftlicher Kommentar</title>
+    <authors><author><name>Philipp Zumstein</name></author></authors>
+    <fullTextUrl format="html">https://libreas.eu/ausgabe41/zumstein</fullTextUrl>
+    <keywords><keyword>Einschätzung</keyword><keyword>Qualitätssicherung</keyword><keyword>Publikationsmodell</keyword><keyword>Mega-Journal</keyword><keyword>Academia Letters</keyword><keyword>evaluation</keyword><keyword>quality assurance</keyword><keyword>publishing model</keyword><keyword>mega journal</keyword></keywords>
+</record>
+<record>
+<language>ger</language>
+    <publisher>Institut für Bibliothekswissenschaft Berlin</publisher>
+    <journalTitle>Libreas : Library Ideas</journalTitle>
+    <issn>18607950</issn>
+    <publicationDate>2022-06</publicationDate>
+    <volume>41</volume>
+    <doi>10.18452/24800</doi>
+    <documentType>article</documentType>
+    <title language="ger">Praxisbericht Big Scholarly Data an der SUB Göttingen</title>
+    <authors><author><name>Nick Haupka</name></author><author><name>Najko Jahn</name></author><author><name>Anne Hobert</name></author></authors>
+    <abstract language="ger">Der Beitrag stellt den Einsatz des kommerziellen Cloud-Computing-Dienstes Google BigQuery für die Arbeit mit großen offenen Datensätzen über wissenschaftliche Veröffentlichungen an der Niedersächsischen Staats- und Universitätsbibliothek Göttingen (SUB Göttingen) vor, insbesondere bezogen auf den Datenbestand, die Prozessierung und die Zugriffsmöglichkeiten. Als beispielhafter Use Case werden überregionale Open-Access-Transformationsverträgen in Deutschland bezogen auf ihren Open-Access-Anteil analysiert.</abstract>
+    <fullTextUrl format="html">https://libreas.eu/ausgabe41/haupka</fullTextUrl>
+    <keywords><keyword>Big Scholarly Data</keyword><keyword>Bibliometrie</keyword><keyword>Hybrides Open Access</keyword><keyword>Open Access Transformation</keyword></keywords>
+</record>
+<record>
+<language>ger</language>
+    <publisher>Institut für Bibliothekswissenschaft Berlin</publisher>
+    <journalTitle>Libreas : Library Ideas</journalTitle>
+    <issn>18607950</issn>
+    <publicationDate>2022-06</publicationDate>
+    <volume>41</volume>
+    <doi>10.18452/24797</doi>
+    <documentType>article</documentType>
+    <title language="ger">Big Scholarly Data im Open Access Monitor: ein Werkstattbericht</title>
+    <authors><author><name>Franziska Stanzel</name></author><author><name>Irene Barbers</name></author><author><name>Philipp Pollack</name></author><author><name>Barbara Lindstrot</name></author></authors>
+    <abstract language="ger">Im Zusammenhang mit der Open-Access-Transformation rückt die Auswertung großer Datenmengen immer mehr in den Fokus von Bibliotheken, da die Anzahl der wissenschaftlichen Publikationen beständig ansteigt. Diese stetig anwachsende Datenmenge muss zuerst nutzbar gemacht werden, bevor fundierte Aussagen beispielsweise zu einrichtungsbezogenen Publikationsoutputs möglich sind. Hier setzt der Open Access Monitor (OAM) an, welcher als Schnittstelle zur Zusammenführung diverser Quellsysteme wie Unpaywall, Dimensions, Web of Science und Scopus fungiert. Dazu ist der OAM strukturell dreigeteilt: Die Daten befinden sich in der Datenbank (Backend), welche über die REST-Schnittstelle (API) abgefragt oder über die Weboberfläche (Frontend) präsentiert und visualisiert werden können. Durch die Nachnutzung einer Vielzahl an Quellsystemen müssen die Daten homogenisiert werden, um vollständige Datenbestände ohne Dubletten zu realisieren. Dafür müssen Zeitschriftentitel oder Einrichtungsbezeichnungen vereinheitlicht werden, um die ursprünglichen Einträge aus den Quellsysteme den entsprechenden Datensätzen im OAM zuordnen zu können. Im Falle der Einrichtungsnamen werden diese mit persistenten Identifikatoren (PID) angereichert. Für die Daten von manchen Datenbanken können die dort hinterlegten Einrichtungsnormierungen nicht direkt auf Organisations-Identifier (ROR-IDs) gemappt werden, weshalb der Umweg über die Rohformen der Affiliationsangaben der Autor*innen gewählt wird. Dieses Mapping der Affiliationsangaben ist eine umfangreiche und komplexe Aufgabe, da zum einen die gelieferten Angaben häufig nicht eindeutig sind und zum anderen eine klare Trennung der Einrichtungen, insbesondere bei Universitätskliniken, eine intellektuelle Bearbeitung erfordert. Der hochkomplexe Vorgang, aus einer Vielzahl an Datenquellen einen einheitlichen Datensatz zu generieren, wird im Beitrag aufgezeigt, wobei ein besonderer Schwerpunkt auf die Normierungsprozesse sowie die Vergabe der Open-Access-Kategorien gelegt wird. Die Metadatenqualität bleibt eine beständige Herausforderung, gleiches gilt für das Thema der Verfügbarkeit und Nachhaltigkeit der angebundenen Quellsysteme. Die Anbindung offener Datenquelle wäre wünschenswert – es entspräche den Zielen der uneingeschränkten (Nach-)Nutzbarkeit der OAM-Daten. Ob beispielsweise OpenAlex als nicht-kommerzielle Datenbank als weiteres Quellsystem für den OAM in Frage kommt, wird abschließend diskutiert.</abstract>
+    <fullTextUrl format="html">https://libreas.eu/ausgabe41/stanzel</fullTextUrl>
+    <keywords><keyword>Publikationsdaten</keyword><keyword>Anwendung</keyword><keyword>wissenschaftliches Publizieren</keyword><keyword>Open Access</keyword><keyword>Monitoring</keyword><keyword>open access monitoring</keyword><keyword>publication data</keyword><keyword>application</keyword><keyword>scholarly publishing</keyword><keyword>scholarly communication</keyword></keywords>
+</record>
+<record>
+<language>ger</language>
+    <publisher>Institut für Bibliothekswissenschaft Berlin</publisher>
+    <journalTitle>Libreas : Library Ideas</journalTitle>
+    <issn>18607950</issn>
+    <publicationDate>2022-06</publicationDate>
+    <volume>41</volume>
+    <doi>10.18452/24802</doi>
+    <documentType>article</documentType>
+    <title language="ger">Das liest die LIBREAS, Nummer #10 [Frühling / Sommer 2022]</title>
+    <authors><author><name>Redaktion LIBREAS</name></author></authors>
+    <fullTextUrl format="html">https://libreas.eu/ausgabe41/dldl</fullTextUrl>
+    <keywords><keyword>Literaturübersicht</keyword><keyword>Bibliothekswissenschaft</keyword><keyword>Informationswissenschaft</keyword><keyword>Bibliothekswesen</keyword><keyword>Rezension</keyword><keyword>literature overview</keyword><keyword>library science</keyword><keyword>information science</keyword><keyword>library sector</keyword><keyword>review</keyword></keywords>
+</record>
+<record>
+<language>ger</language>
+    <publisher>Institut für Bibliothekswissenschaft Berlin</publisher>
+    <journalTitle>Libreas : Library Ideas</journalTitle>
+    <issn>18607950</issn>
+    <publicationDate>2022-06</publicationDate>
+    <volume>41</volume>
+    <doi>10.18452/24798</doi>
+    <documentType>article</documentType>
+    <title language="ger">Wissenschaftliche Literatur entdecken: Was bibliothekarische Discovery-Systeme von der Konkurrenz lernen und was sie ihr zeigen können</title>
+    <authors><author><name>Anne Christensen</name></author></authors>
+    <abstract language="ger">In den letzten Jahren ist das Angebot an Academic Search Engines für die Recherche nach Fachliteratur zu allen Wissenschaftsgebieten stark angewachsen und ergänzt die beliebten kommerziellen Angebote wie Web of Science oder Scopus. Der Artikel zeigt die wesentlichen Unterschiede zwischen bibliothekarischen Discovery-Systemen und Academic Search Engines wie Base, Dimensions oder Open Alex auf und diskutiert Möglichkeiten, wie beide von einander profitieren können. Diese Entwicklungsperspektiven betreffen Aspekte wie die Kontextualisierung von Wissen, die Datenmodellierung, die automatischen Datenanreicherung sowie den Zuschnitt von Suchräumen.</abstract>
+    <fullTextUrl format="html">https://libreas.eu/ausgabe41/christensen</fullTextUrl>
+    <keywords><keyword>Discovery-Systeme</keyword><keyword>Bibliothekskataloge</keyword><keyword>OpenAlex</keyword><keyword>Academic Search Engines</keyword></keywords>
+</record></records>
